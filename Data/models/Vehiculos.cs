@@ -5,10 +5,10 @@ public class vehiculos
     
 
     public int vehiculoID {get; set; }
-    public string Marca {get; set;} = null!;
-    public string Modelo {get; set;}= null!;
-    public  double año {get; set;}
-    public string Color {get; set;}= null!;
+    public char Marca {get; set;} 
+    public char Modelo {get; set;}
+    public  int año {get; set;}
+    public char Color {get; set;}
 }
 
 
